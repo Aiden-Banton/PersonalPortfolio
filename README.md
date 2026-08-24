@@ -8,11 +8,13 @@ I'm Aiden Banton, a Business Information Technology (BIT) student focused on net
 |---|---|
 | [**HomeLab**](./HomeLab/README.md) | A self-hosted lab on real hardware: a pfSense firewall on a Protectli Vault, a VLAN-segmented network, and a 3-node Proxmox cluster. Documentation covers the build order, the addressing scheme, per-node hardware budgets, and the services running or staged on top of the cluster. |
 | [**Labs**](./Labs/README.md) | Hands-on networking labs for CCNA 200-301 and JNCIA-Junos, organized by vendor. Each lab is a self-contained exercise — original topology, pre-calculated addressing table, tasks, and a verification section — written from scratch, not adapted from any course, textbook, or vendor material. |
+| [**RackLabs**](./RackLabs-Overview/README.md) | A small hardware company I run myself, designing rack enclosures for home lab and self-hosted setups — [racklabs.ca](https://www.racklabs.ca). A high-level overview, plus how I use AI and agentic tooling to actually build and run it. |
 
 ```
 PersonalPortfolio/
-    HomeLab/    the running lab: build guides, addressing, services
-    Labs/       CCNA + JNCIA practice labs, organized by vendor
+    HomeLab/           the running lab: build guides, addressing, services
+    Labs/              CCNA + JNCIA practice labs, organized by vendor
+    RackLabs-Overview/ small hardware company: overview + AI tooling usage
 ```
 
 ## How these fit together
