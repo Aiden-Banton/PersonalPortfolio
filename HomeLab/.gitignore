@@ -1,0 +1,39 @@
+# HomeLab-specific rules. Portfolio-wide rules (CAD, VM images, lab artifacts)
+# live in ../.gitignore; see ../PUBLISHING.md for the pre-push checklist.
+# Nothing with credentials, keys, or config exports belongs in these docs.
+
+# pfSense / firewall config backups (contain hashed creds, VPN keys, WAN/public IP)
+config.xml
+*config-*.xml
+*.pfsense
+
+# Secrets, keys, tokens, env files
+*.env
+.env
+secrets.yaml
+secrets.yml
+*.key
+*.pem
+id_rsa*
+*.p12
+*.pfx
+
+# WireGuard: client/server configs embed a private key and your WAN endpoint
+wg*.conf
+*wireguard*.conf
+*.wgconf
+
+# Docker compose files that may carry secrets (commit only sanitized copies)
+docker-compose.override.yml
+
+# EVE-NG node images and lab artifacts moved to ../Labs/ — those rules now live
+# in ../.gitignore so they apply wherever the folders end up.
+
+# Backups / archives
+*.bak
+*.tgz
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp

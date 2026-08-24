@@ -1,0 +1,23 @@
+! SW1 — CCNA-101 Ethernet Switching Fundamentals
+!
+enable
+configure terminal
+hostname SW1
+!
+interface vlan 1
+ ip address 10.1.99.1 255.255.255.0
+ no shutdown
+exit
+!
+! Task 4 — inject duplex mismatch fault
+interface fastEthernet 0/2
+ duplex half
+exit
+!
+! Task 5 — fix
+interface fastEthernet 0/2
+ duplex auto
+exit
+!
+end
+write memory
