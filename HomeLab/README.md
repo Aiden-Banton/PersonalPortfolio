@@ -18,6 +18,7 @@ My home lab runs on real hardware: a pfSense firewall, a VLAN-trunked managed sw
 - [Hardware Acceleration](./HARDWARE-ACCELERATION.md): Intel Quick Sync passthrough for Jellyfin transcoding
 - [Docker Setup](./DOCKER-SETUP.md): running Docker as an LXC or a VM, and how to decide which
 - [EVE-NG Setup](./EVE-NG-SETUP.md): EVE-NG CE as a Proxmox VM, nested virtualization, and the folder/filename rules for importing QEMU, IOL, and Dynamips images
+- [Multi-Provider Email on One DNS Zone](./EMAIL-DNS-TROUBLESHOOTING.md): a debugging write-up — three email services sharing one DNS zone, a silent record conflict, and how it was root-caused and fixed
 
 ### Labs and study
 - [**Labs**](../Labs/README.md): every hands-on lab, one folder each, with drop-in slots for Packet Tracer `.pkt` files, EVE-NG `.unl` topologies, instruction PDFs, device configs, and verification output

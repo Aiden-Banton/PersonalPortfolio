@@ -23,7 +23,7 @@ HomeLab is infrastructure that has to keep working. Labs is where I get to break
 
 ## Where things stand
 
-I'd rather point at the source than duplicate a table here that goes stale. [Labs/README.md](./Labs/README.md) tracks every lab's status against a `planned` / `built` / `documented` legend. As of today: 7 labs across the CCNA and JNCIA tracks are written and ready to run in Packet Tracer or EVE-NG — status `built`. None are `documented` yet: that status means built, run, and verified with real captured output in `output/`, and I haven't run any of them start to finish. I'd rather ship an honest table than an inflated one.
+I'd rather point at the source than duplicate a table here that goes stale. [Labs/README.md](./Labs/README.md) tracks every lab's status against a `planned` / `built` / `documented` legend. As of today: 7 labs across the CCNA and JNCIA tracks are written and ready to run in Packet Tracer or EVE-NG — status `built`. One more (CCNA-301) is `planned`: indexed and scoped, but not written yet. None are `documented` yet: that status means built, run, and verified with real captured output in `output/`, and I haven't run any of them start to finish. I'd rather ship an honest table than an inflated one.
 
 ## About
 
